@@ -1,0 +1,1 @@
+# Go-Generate-Project-Structure
