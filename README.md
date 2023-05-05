@@ -25,7 +25,7 @@ Here My personal Go project structure.
 To use this CLI tool, you need to have Go installed on your machine. Then you can install the CLI tool with the following command:
 
 ```go
-go get github.com/faruqii/gogenproject
+go get -u github.com/faruqii/gogenproject/cmd/gogenproject
 ```
 
 After that, you can use the CLI tool with the following command:
