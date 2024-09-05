@@ -11,11 +11,12 @@ Here My personal Go project structure.
 └───internal
     ├───app
     ├───config
-    ├───controllers
     ├───domain
-    ├───dto
+    │   ├───dto
+    │   ├───entities
+    │   └───repositories
+    ├───handlers
     ├───middleware
-    ├───repositories
     ├───routes
     └───services
 ```
@@ -25,7 +26,7 @@ Here My personal Go project structure.
 To use this CLI tool, you need to have Go installed on your machine. Then you can install the CLI tool with the following command:
 
 ```go
-go get -u github.com/faruqii/gogenproject
+go install github.com/faruqii/gogenproject/v2@latest
 ```
 
 After that, you can use the CLI tool with the following command:
