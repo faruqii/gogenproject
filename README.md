@@ -21,6 +21,12 @@ Here My personal Go project structure.
     └───services
 ```
 
+## What's New?
+- `Framework Selection`: The CLI tool now offers the option to choose a Go framework (Fiber, Gin, or Echo). The user can decide whether to set up a framework or not, making the selection process flexible and optional.
+- `Go Module Initialization`: Automatically initializes a Go module (go.mod) with the project name and installs the chosen framework if specified.
+- `Entity Generation`: Users can now generate custom entity files by specifying the entity name and attributes interactively.
+
+
 ## Usage
 
 To use this CLI tool, you need to have Go installed on your machine. Then you can install the CLI tool with the following command:
